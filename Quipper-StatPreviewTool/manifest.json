@@ -1,0 +1,113 @@
+{
+	"name": "StatPreviewTool",
+	"namespace": "Quipper",
+	"version_number": "1.0.0",
+	"description": "顯示升級能力後或者道具購買後的變化數值",
+	"website_url": "",
+	"dependencies": [],
+	"extra": {
+		"godot": {
+			"incompatibilities": [],
+			"authors": ["Quipper"],
+			"compatible_mod_loader_version": ["6.2.0"],
+			"compatible_game_version": ["1.1.9.3"],
+			"config_defaults": {},
+			"config_schema": {
+				"title": "SPT-Config",
+				"description": "顯示升級能力後或者道具購買後的變化數值",
+				"type": "object",
+				"properties": {
+					"QUIPPER_STAT_PREVIEW_TOOL_SHOW_OPTIONS": {
+						"type": "boolean",
+						"default": true
+					},
+					"QUIPPER_STAT_PREVIEW_TOOL_HIDE_ALL": {
+						"type": "boolean",
+						"default": false
+					},
+					"QUIPPER_STAT_PREVIEW_TOOL_SHOW_CAP": {
+						"type": "boolean",
+						"default": true
+					},
+					"QUIPPER_STAT_PREVIEW_TOOL_SHOW_ARMOR_DETAIL": {
+						"type": "boolean",
+						"default": true
+					},
+					"QUIPPER_STAT_PREVIEW_TOOL_SHOW_HP_REGENERATION_DETAIL": {
+						"type": "boolean",
+						"default": true
+					},
+					"QUIPPER_STAT_PREVIEW_TOOL_SHOW_ADVANCED_OPTIONS": {
+						"type": "boolean",
+						"default": false
+					},
+					"QUIPPER_STAT_PREVIEW_TOOL_SHOW_ARMOR": {
+						"type": "boolean",
+						"default": true
+					},
+					"QUIPPER_STAT_PREVIEW_TOOL_SHOW_ATTACK_SPEED": {
+						"type": "boolean",
+						"default": true
+					},
+					"QUIPPER_STAT_PREVIEW_TOOL_SHOW_CRIT_CHANCE": {
+						"type": "boolean",
+						"default": true
+					},
+					"QUIPPER_STAT_PREVIEW_TOOL_SHOW_DODGE": {
+						"type": "boolean",
+						"default": true
+					},
+					"QUIPPER_STAT_PREVIEW_TOOL_SHOW_ELEMENTAL_DAMAGE": {
+						"type": "boolean",
+						"default": true
+					},
+					"QUIPPER_STAT_PREVIEW_TOOL_SHOW_ENGINEERING": {
+						"type": "boolean",
+						"default": true
+					},
+					"QUIPPER_STAT_PREVIEW_TOOL_SHOW_HARVESTING": {
+						"type": "boolean",
+						"default": true
+					},
+					"QUIPPER_STAT_PREVIEW_TOOL_SHOW_HEALTH": {
+						"type": "boolean",
+						"default": true
+					},
+					"QUIPPER_STAT_PREVIEW_TOOL_SHOW_HEALTH_REGENERATION": {
+						"type": "boolean",
+						"default": true
+					},
+					"QUIPPER_STAT_PREVIEW_TOOL_SHOW_LIFESTEAL": {
+						"type": "boolean",
+						"default": true
+					},
+					"QUIPPER_STAT_PREVIEW_TOOL_SHOW_LUCK": {
+						"type": "boolean",
+						"default": true
+					},
+					"QUIPPER_STAT_PREVIEW_TOOL_SHOW_MELEE_DAMAGE": {
+						"type": "boolean",
+						"default": true
+					},
+					"QUIPPER_STAT_PREVIEW_TOOL_SHOW_PERCENT_DAMAGE": {
+						"type": "boolean",
+						"default": true
+					},
+					"QUIPPER_STAT_PREVIEW_TOOL_SHOW_RANGE": {
+						"type": "boolean",
+						"default": true
+					},
+					"QUIPPER_STAT_PREVIEW_TOOL_SHOW_RANGED_DAMAGE": {
+						"type": "boolean",
+						"default": true
+					},
+					"QUIPPER_STAT_PREVIEW_TOOL_SHOW_SPEED": {
+						"type": "boolean",
+						"default": true
+					}
+					
+				}
+			}
+		}
+	}
+}
